@@ -1,1 +1,43 @@
-<link type="text/css" rel="style" href="style.css">
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<center> <div class="form-group">
+     <label for="user_first_name">First name</label><br>
+     <input type="text" class="form-control" name="user[first_name]" id="user_first_name">
+   </div> 
+
+<div class="form-group">
+     <label for="user_last_name">Last name</label><br>
+     <input type="text" class="form-control" name="user[last_name]" id="user_last_name">
+   </div>
+
+ <div class="form-group">
+     <label for="user_description">Description</label><br>
+     <input type="text" class="form-control" name="user[description]" id="user_description">
+   </div>
+
+ <div class="form-group">
+    <label for="user_password">Password</label>
+    <em>(6 characters minimum)</em>
+    <br>
+    <input autocomplete="new-password" class="form-control" type="password" name="user[password]" id="user_password" aria-autocomplete="list">
+  </div>
+
+<div class="form-group">
+    <label for="user_password_confirmation">Password confirmation</label><br>
+    <input autocomplete="new-password" class="form-control" type="password" name="user[password_confirmation]" id="user_password_confirmation">
+  </div>
+
+  <div class="actions">
+    <input class= "btn btn-outline-success" type="submit" name="commit" value="Sign up" data-disable-with="Sign up">
+  </div>
+
+</center>
+ </body>
+
+</html>
